@@ -1,0 +1,434 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Education For A Better Life!</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Lavelindo is a Startup that was built on Passionate of Traveling Around The World" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- js -->
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- font-awesome icons -->
+<link href="<?php echo base_url();?>assets/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<link href='//fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<style>
+/* The Modal (background) */
+.modal {
+    text-align: center;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+</style>
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                                    <h1><a class="navbar-brand" href="<?php echo base_url();?>">STT Academia<span>Revolutionary On Education</span></a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="link-effect-3" id="link-effect-3">
+						<ul class="nav navbar-nav">
+                                                    <li><a href="<?php echo base_url();?>" data-hover="Home">Beranda</a></li>
+                                                    <li><?php echo anchor('frontend/register','<i class="data-hover"></i> Register')?></li>
+                                                    <li><?php echo anchor('frontend/berita','<i class="data-hover"></i> Berita')?></li>
+                                                    <li><?php echo anchor('frontend/tentang','<i class="data-hover"></i> Tentang')?></li>
+                                                    <li><?php echo anchor('frontend/backend','<i class="data-hover"></i> Login')?></li>
+                                                    
+						</ul>
+					</nav>
+				</div>
+			</nav>
+                    <div id="myModal" role="dialog">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h3>Join Us, Now!</h3>
+    </div>
+    <div class="modal-body">
+     <img src="<?php echo base_url();?>uploads/brosurstt.png" alt=" " class="img-responsive" />
+     </div>
+  </div>
+
+</div>
+			<div class="w3l_banner_info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3><i>Problem Solver</i><span> Guiding Solve All Your Problem</span></h3>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3><i>Pelita Nusantara</i><span> Yuk Mulai Rancang Masa Depanmu!</span></h3>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3><i>Latihan </i><span>Menggapai Asa Mencapai Cita!</span></h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+						<!-- flexSlider -->
+							<script defer src="<?php echo base_url();?>assets/js/jquery.flexslider.js"></script>
+							<script type="text/javascript">
+							$(window).load(function(){
+							  $('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								  $('body').removeClass('loading');
+								}
+							  });
+							});
+						  </script>
+						<!-- //flexSlider -->
+			</div>			
+		</div>
+	</div>
+<!-- //banner -->	
+
+<!-- work -->
+	<div class="work">
+		<div class="container">
+                    <h3 class="w3ls_head" >Academia, How it feels good?</h3>
+			<div class="agile_work_grids">
+				<div class="col-md-3 agile_work_grid">
+					<div class="agile_work_grid1 w3_agileits_work">
+						<span>1</span>
+					</div>
+					<div class="agile_work_grid2 hvr-rectangle-out">
+						<div class="agile_work_grid3">
+							<span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+						</div>
+					</div>
+					<h4>Plan Your Future</h4>
+				</div>
+				<div class="col-md-3 agile_work_grid">
+					<div class="agile_work_grid1 w3_agileits_work1">
+						<span>2</span>
+					</div>
+					<div class="agile_work_grid2 hvr-rectangle-out">
+						<div class="agile_work_grid3">
+							<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+						</div>
+					</div>
+					<h4>Solve Your Problem</h4>
+					
+				</div>
+				<div class="col-md-3 agile_work_grid">
+					<div class="agile_work_grid1 w3_agileits_work2">
+						<span>3</span>
+					</div>
+					<div class="agile_work_grid2 hvr-rectangle-out">
+						<div class="agile_work_grid3">
+							<span class="glyphicon glyphicon-export" aria-hidden="true"></span>
+						</div>
+					</div>
+					<h4>Face The Try Out</h4>
+				</div>
+				<div class="col-md-3 agile_work_grid">
+					<div class="agile_work_grid1 agile_work_grid1_four">
+						<span>4</span>
+					</div>
+					<div class="agile_work_grid2 hvr-rectangle-out">
+						<div class="agile_work_grid3">
+							<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+						</div>
+					</div>
+					<h4>Learning By Doing</h4>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //work -->
+
+<!-- work-bottom -->
+	
+<!-- //work-bottom -->
+
+<!-- testimonials --> 
+	<div class="testimonials">
+	
+				<script src="<?php echo base_url();?>assets/js/slideshow.min.js"></script>
+				<script src="<?php echo base_url();?>assets/js/launcher.js"></script>
+			</div>
+		</div>
+	</div>
+<!-- //testimonials -->
+<!-- newsletter -->
+	
+<!-- //newsletter -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3agile_footer_grid">
+				<div class="col-md-4 w3agile_footer_grid_left">
+					<div class="w3agile_footer_grid_left1">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					</div>
+					<h4> Rumah Belajar dan Les Privat Surabaya jl. Ngagel Tirto III/24 <span>Surabaya-Jawa Timur-Indonesia</span></h4>
+				</div>
+				<div class="col-md-4 w3agile_footer_grid_left">
+					<div class="w3agile_footer_grid_left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<a href="mailto:lavelindo.id@gmail.com">kontak@sttacademia.com</a>
+				</div>
+				<div class="col-md-4 w3agile_footer_grid_left">
+					<div class="w3agile_footer_grid_left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					</div>
+					<h4>+62 81357886143</h4>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="agileinfo_footer_bottom">
+			<div class="container">
+				<div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>About <span>STT Academia</span></h3>
+					<p>STT Academia is a Startup that was built on Passionate About Education</p>
+					<ul class="social-nav model-3d-0 footer-social w3_agile_social">
+						<li><a href="#" class="facebook">
+							  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+						<li><a href="#" class="twitter"> 
+							  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+						<li><a href="#" class="instagram">
+							  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+							  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+						<li><a href="#" class="pinterest">
+							  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>Disclaimer </h3>
+					<p>Kami menyediakan konten video untuk berbagai macam pelajaran yang diperuntukkan bagi siswa SMP, SMA dan Umum ( Khusus TPA ).
+                                        Selain itu, kami juga menyediakan jasa konsultasi bimbingan skripsi bagi yang membutuhkan.</p>
+				</div>
+				<div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>Flickr <span>Feed</span></h3>
+					<div class="flickr-grids">
+						<div class="flickr-grid agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/3.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="flickr-grid  agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/5.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="flickr-grid  agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/4.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="clearfix"> </div>
+						
+						<div class="flickr-grid  agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/6.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="flickr-grid  agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/7.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="flickr-grid  agileits_w3layouts_flickr">
+							<a href="single.html"><img src="<?php echo base_url();?>assets/images/8.jpg" alt=" " class="img-responsive" /></a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+                                    <div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>Our <span>Subjects</span></h3>
+					<div class="flickr-grids">
+                                            <p>- Matematika </p>
+                                            <p>- Fisika</p>
+                                            <p>- Kimia</p>
+                                            <p>- Biologi</p>
+                                            <p>- TPA</p>
+                                            <p>- Konsultasi Skripsi Informatika</p>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+                            <div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="agileinfo_footer_bottom1">
+			<div class="container">
+				<div class="agileinfo_footer_bot_left">
+					<ul>
+                                            <li><a href="<?php echo base_url()?>">STT Academia</a><span> |</span></li>
+						<li><span>Developed With Passion By STT Academia</span></li>
+					</ul>
+				</div>
+				<div class="agileinfo_footer_bot_right">
+					<p>© 2017 STT Academia. All rights reserved | Thank's To <a href="http://w3layouts.com">W3layouts</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/move-top.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+        <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+    		$(document).ready(function() {
+			
+			$(window).on('load',function(){
+                        $('#myModal').modal('show');
+                
+    
+}
+ var span = document.getElementsByClassName("close")[0];
+ // When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+</script>
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+    		
+ var span = document.getElementsByClassName("close")[0];
+ // When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
